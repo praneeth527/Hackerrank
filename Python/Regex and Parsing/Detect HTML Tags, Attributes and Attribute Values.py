@@ -8,7 +8,6 @@ class MyHTMLParser(HTMLParser):
             for attr in attrs:
                 print("->", attr[0], ">", str(attr[1]))
 
-
     def handle_startendtag(self, tag, attrs):
         print(tag)
         if len(attrs) > 0:

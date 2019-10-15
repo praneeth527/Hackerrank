@@ -20,4 +20,4 @@ for i in (list(product(*L))):
     if r > max:
         max = r
 
-print (max)
+print(max)

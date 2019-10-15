@@ -1,5 +1,6 @@
 from itertools import groupby
-string=list(input())
-groups=groupby(string,key=lambda x:x[0])
+
+string = list(input())
+groups = groupby(string, key=lambda x: x[0])
 for key, group in groups:
-    print((len(list(group)),int(key)), end=' ')
+    print((len(list(group)), int(key)), end=' ')

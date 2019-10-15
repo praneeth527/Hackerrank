@@ -13,6 +13,7 @@ def arrayManipulation(n, queries):
             maxval = itt
     return maxval
 
+
 nm = input().split()
 
 n = int(nm[0])
